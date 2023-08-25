@@ -55,7 +55,7 @@ router.put('/api/exercises/:exerciseId', async (req, res) => {
 
 
 router.get('/', (req, res) => {
-  res.render('home');
+    res.render('home');
 });
 
 router.get('/index', (req, res) => {
